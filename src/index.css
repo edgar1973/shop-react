@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+body{
+
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-size: 16px;
+	background: #0C1628;
+	overflow-x: hidden;
+}
+
+.body-wrapper{
+	overflow-x: hidden;
+}
+
+a, a:hover{
+	text-decoration: none;
+	transition: .5s;
+	cursor: pointer;
+}
+
+h1,h2,h3,h4,p,ul,ol{
+	margin: 0;
+}
+
+ul,ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+::-webkit-scrollbar {width: 4px;}
+::-webkit-scrollbar-track {background: black;}
+::-webkit-scrollbar-thumb {
+    background-color: #D2661F;
+    border-radius: 20px;
+}
+
+html, body, div, * {
+    scrollbar-width: thin;
+    scrollbar-color: #F7F0D7, #275365;
+}
+
+button{
+	white-space: nowrap;
+}
+
+.mb-20{margin-bottom: 20px;}
+.mb-25{margin-bottom: 25px;}
+.mb-30{margin-bottom: 30px;}
+.mb-50{margin-bottom: 50px;}
+.mb-60{margin-bottom: 60px;}
+.mb-40{margin-bottom: 40px;}
+.mb-70{margin-bottom: 70px;}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px){.container {max-width: 750px;}}
+@media (min-width: 992px){.container {max-width: 960px;}}
+@media (min-width: 1200px){.container {max-width: 1140px;}}
+@media (min-width: 1500px){.container {max-width: 1440px;}}
+.header{
+  background: #0c1628f5;
+}
+.header-inner{
+  padding: 25px 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header-logo{
+  font-size: 35px;
+  color:antiquewhite;
+  font-weight: bold;
+  color: #8CDA4C;
+}
+.header-nav ul{
+  display: flex;
+  font-size: 20px;
+}
+.header-nav ul li{
+  margin-right: 35px;
+  text-transform: uppercase;
+  color: white;
+}
+.header img{
+  width: 50px;
+  height: 50px;
+  
+}
+.shop{
+  padding: 50px 0 50px;
+}
+.shop-inner{
+  padding: 50px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.shop-item{
+  padding: 30px;
+  width: 30%;
+  height: auto;
+  background: #000;
+}
+.item-img{
+  width: 350px;
+  height: 250px;
+  background: white;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.item-name{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.item-price{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+.shop button{
+  padding: 10px 30px;
+  margin: 0 auto;
+  display: block;
+}
+.shop button:hover{
+  cursor: pointer;
+}
